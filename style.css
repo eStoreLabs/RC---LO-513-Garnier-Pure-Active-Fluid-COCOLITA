@@ -329,6 +329,8 @@ body {
   min-width: 212px;
   max-height: 240px;
   padding: 24px 8px;
+  padding-top: 40px;
+  padding-bottom: 39px;
   background: #fff;
   border: none;
   border-radius: 16px;
@@ -347,7 +349,7 @@ body {
   font-size: 12px;
   padding-top: 16px;
   text-align: center;
-  font-weight: 600;
+  font-weight: 700;
 }
 #es-garnier.es-garnier .es-ingredients__title {
   text-transform: uppercase;
@@ -436,8 +438,11 @@ body {
   #es-garnier.es-garnier .es-ingredients__img-title {
     display: block;
     margin-left: -10%;
-    margin-top: -20px;
+    margin-top: -40px;
     text-align: center;
+  }
+  #es-garnier.es-garnier .es-ingredients__img-title--2 {
+    margin-top: -10px;
   }
 }
 #es-garnier.es-garnier .es-active-ingredients__title {
@@ -1242,7 +1247,7 @@ body {
   #es-garnier.es-garnier .es-ingredients__cards {
     margin: 0;
     margin-top: -150px;
-    margin-left: -50px;
+    margin-right: 35px;
     background: url('./img/bg-ingr.png') no-repeat 10px center;
     background-size: 90%;
     z-index: 10;
@@ -1445,14 +1450,17 @@ body {
     z-index: 3;
   }
   #es-garnier.es-garnier .es-ingredients__packshot::before {
-    font-size: 15px;
+    font-size: 18px;
   }
   #es-garnier.es-garnier .es-ingredients__packshot::after {
     right: 30%;
-    font-size: 15px;
+    font-size: 18px;
   }
 }
 @media screen and (min-width: 1200px) {
+  #es-garnier.es-garnier .es-ingredients__img-packshot {
+    margin-left: 50px;
+  }
   #es-garnier.es-garnier .es-kv__title {
     font-size: 35px;
   }
@@ -1589,10 +1597,10 @@ body {
     max-width: 420px;
   }
   #es-garnier.es-garnier .es-ingredients__packshot::before {
-    left: 17%;
+    left: 20%;
   }
   #es-garnier.es-garnier .es-ingredients__packshot::after {
-    right: 32%;
+    right: 25%;
   }
 }
 
